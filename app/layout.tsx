@@ -6,9 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CuratedChill.House | The Prestige Archive",
-  description: "A decentralized curation lounge for the $CHILL universe. High signal, low noise. Secure your spot in the vault.",
+  description: "A decentralized curation lounge for the $CHILL universe. High signal, low noise.",
   icons: {
-    icon: "/favicon.ico", // This will look for a favicon in your public folder
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
